@@ -1,1 +1,0 @@
-This scraper collects student's ratings of their professors from the website RateMyProfessor. 
