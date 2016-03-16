@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import scraperwiki
 from bs4 import BeautifulSoup
 import string
@@ -26,4 +27,5 @@ for sid in colleges.keys():
                 variables[headers[i]] = value
             variables["College"] = college
             scraperwiki.sqlite.save(unique_keys=['Name',"Department"], data = variables)
+
 
